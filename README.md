@@ -9,7 +9,7 @@
 1. **Клонирование репозитория**
    Для начала, склонируйте репозиторий на ваш компьютер:
    ```sh
-   git clone (https://github.com/BezdomnyiBox/test_vladlink/tree/main)
+   git clone https://github.com/BezdomnyiBox/test_vladlink/tree/main
    ```
    Перейдите в директорию с проектом и включите терминал
 
