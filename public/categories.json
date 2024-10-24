@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "name": "Пользователи",
+        "alias": "users",
+        "childrens": [
+            {
+                "id": 2,
+                "name": "Создание",
+                "alias": "create"
+            },
+            {
+                "id": 3,
+                "name": "Список",
+                "alias": "list",
+                "childrens": [
+                    {
+                        "id": 4,
+                        "name": "Активные",
+                        "alias": "active"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Удаленные",
+                        "alias": "deleted"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Поиск",
+                "alias": "search"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Заявки",
+        "alias": "requests",
+        "childrens": [
+            {
+                "id": 9,
+                "name": "Заявки на подключение",
+                "alias": "connecting"
+            },
+            {
+                "id": 10,
+                "name": "Заявки на ремонт",
+                "alias": "repairs"
+            },
+            {
+                "id": 11,
+                "name": "Заявки на обход",
+                "alias": "round"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Отчёты",
+        "alias": "reports",
+        "childrens": [
+            {
+                "id": 12,
+                "name": "Отдел маркетинга",
+                "alias": "marketing",
+                "childrens": [
+                    {
+                        "id": 15,
+                        "name": "Отчёт по списаниям",
+                        "alias": "write-offs"
+                    },
+                    {
+                        "id": 16,
+                        "name": "Отчёт по расходам",
+                        "alias": "costs"
+                    },
+                    {
+                        "id": 17,
+                        "name": "Годовой отчёт",
+                        "alias": "year"
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "name": "Управление",
+                "alias": "control",
+                "childrens": [
+                    {
+                        "id": 18,
+                        "name": "Отчёт по эффективности работы",
+                        "alias": "efficiency"
+                    },
+                    {
+                        "id": 19,
+                        "name": "Отчёт по подключениям",
+                        "alias": "connecting"
+                    }
+                ]
+            }
+        ]
+    }
+]
